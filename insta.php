@@ -2,9 +2,9 @@
 //neveshteh shode tvasatoe #elyas #galikeshi @sudo_avenger
 ob_start();
 //token ro inja vared konid
-define('API_KEY','[TOKEN]');
-$admin = "[ADMIN]";
-$admin2 = "125858918";
+define('API_KEY','1251613397:AAG_akn6CXfKQt94wwEELNojcsA_dJ9LZfU');
+$admin = "1162251190";
+$admin2 = "1162251190";
 function bot($method,$datas=[]){
     $url = "https://api.telegram.org/bot".API_KEY."/".$method;
     $ch = curl_init();
